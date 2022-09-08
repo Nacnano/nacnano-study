@@ -18,8 +18,6 @@
 //     });
 
 
-
-
 // async function run () {
 //     const outputA = taskA;
 //     const outputB = taskB;
@@ -33,13 +31,13 @@
 // console.log("HOI!");
 
 
-const thisHasErro = () => {
+const thisHasError = () => {
     throw new Error("BRUH");
   };
   
 try {
 console.log("Start process...");
-thisHasErro();
+thisHasError();
 console.log("End process...");
 } catch (error) {
 if (error instanceof Error) {
