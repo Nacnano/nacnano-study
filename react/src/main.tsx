@@ -68,7 +68,7 @@ function Mycomponent (){
   }
 
   return (
-  <> 
+  <main className={classes.body}> 
     <div style={{backgroundColor: "cyan"}}>
       <Profile name="Nac" age={18} isSmart />
       {peopleElement}
@@ -89,11 +89,12 @@ function Mycomponent (){
 
     <div style={{backgroundColor: "orange"}}>
       {colors.map(function(color) {
-        return <ColorDisplay color={color}/>
+        return <ColorDisplay key={color} color={color}/>
       })}
     </div>
-  </>);
+  </main>);
 }
+
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
