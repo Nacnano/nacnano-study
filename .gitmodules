@@ -4,3 +4,6 @@
 [submodule "test-mongodb"]
 	path = test-mongodb
 	url = https://github.com/Nacnano/test-mongodb
+[submodule "test-nestjs"]
+	path = test-nestjs
+	url = https://github.com/Nacnano/test-nestjs
