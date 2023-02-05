@@ -3,4 +3,4 @@
 Just testing Spring Framework
 I want to try using Java.
 
-Based on Youtube video from someone whose last name is "Pinyo"
+Based on [This YouTube video](https://www.youtube.com/live/cUivgstPP6U?feature=share)
