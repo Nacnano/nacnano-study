@@ -7,3 +7,6 @@
 [submodule "test-nestjs"]
 	path = test-nestjs
 	url = https://github.com/Nacnano/test-nestjs
+[submodule "nacnano-blog"]
+	path = nacnano-blog
+	url = https://github.com/Nacnano/nacnano-blog
