@@ -1,3 +1,6 @@
 [submodule "test-spring"]
 	path = test-spring
 	url = https://github.com/Nacnano/test-spring
+[submodule "test-mongodb"]
+	path = test-mongodb
+	url = https://github.com/Nacnano/test-mongodb
