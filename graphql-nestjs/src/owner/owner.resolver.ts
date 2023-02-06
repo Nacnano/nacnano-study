@@ -1,5 +1,5 @@
 import { Resolver, Query, Mutation, Args } from '@nestjs/graphql';
-import { CreateOwnerInput } from './dto/create-owner.input';
+import { CreateOwnerInput } from 'src/types/graphql';
 import { OwnerService } from './owner.service';
 
 @Resolver('Owner')

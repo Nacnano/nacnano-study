@@ -5,6 +5,7 @@ type Dog {
 
 input CreateDogInput {
   name: String!
+  ownerId: Int
 }
 
 input UpdateDogInput {

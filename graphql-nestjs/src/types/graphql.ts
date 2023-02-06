@@ -10,6 +10,7 @@
 
 export class CreateDogInput {
     name: string;
+    ownerId?: Nullable<number>;
 }
 
 export class UpdateDogInput {
